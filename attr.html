@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::after{
+            content: ",no";
+        }
+        h1::before{
+            content: "yes,";
+        }
+        a::after{
+            content: "["attr(title)"]" ;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a random heading</h1>
+    <h1>This is a random heading</h1>
+    <h1>This is a random heading</h1>
+    <h1>This is a random heading</h1>
+    <h1>This is a random heading</h1>
+    <h1>This is a random heading</h1> 
+
+    <a href="https://www.google.com/" title="Visit google"> google </a>
+    <a href="https://www.flipkart.com/" title="Visit flipkart">flipkart</a>
+    <a href="https://www.youtube.com/">youtube</a>
+    <a href="https://www.instagram.com/">Instagram</a>
+</body>
+</html>
