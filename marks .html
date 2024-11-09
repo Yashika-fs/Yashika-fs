@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="Marks()">Marks</button>
+    <script>
+        function Marks()
+        {
+            P = parseFloat(prompt("Enter your physics marks"))
+            C = parseFloat(prompt("Enter your chemistry marks"))
+            M = parseInt(prompt("Enter your Maths marks"))
+
+            total = P+C+M
+            per = (total/300) *100
+            alert(` Percentage is ${per}`)
+
+            if(per >= 90)
+            {
+                alert("Grade A")
+            }
+            else if (per >= 80 && per < 90)
+            {
+                alert("Grade B")
+            }
+            else if (per >= 70 && per <80)
+            {
+                alert("Grade C")
+            }
+            else if (per >= 60 && per <70)
+            {
+                alert("Grade D")
+            }
+            else if (per <= 50)
+            {
+                alert("Grade E")
+            }
+        }
+    </script>
+</body>
+</html>
