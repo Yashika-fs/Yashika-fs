@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cpu = Math.floor(Math.random()*100)
+        let user;
+        let count = parseInt(0)
+        while(true){
+            count++
+        let number = parseInt(prompt("Enter number"))
+             if(number < cpu){
+                alert("Enter a geater value")
+            }
+            else if(number > cpu){
+                alert("Enter a smaller value")
+            }
+            else{
+                alert("Congratulation you won")
+                break
+            }
+        }
+        alert(`${count}`)
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1 = parseInt(prompt("Enter marks of maths"))
+        let num2 = parseInt(prompt("Enter marks of physics"))
+        let num3 = parseInt(prompt("Enter marks of chemistry"))
+
+        total = num1+num2+num3
+        per = (total/300)*100
+
+    per/= 10
+
+        switch(per) {
+            case 10: alert("Grade A+")
+            break
+            case 9: alert("Grade A")
+            break
+            case 8: alert("Grade B")
+            break
+            case 7: alert("Grade c")
+            break
+            case 6: alert("Grade D")
+            break
+            default : alert("Fail")
+        }
+</script>
+</body>
+</html>
