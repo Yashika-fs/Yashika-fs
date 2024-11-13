@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 400px;
+            width: 400px;
+            border: 1px solid black;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div onmouseenter="change(this)" onmouseenter="change2(this)">
+        <img src="beauty.webp" alt="">
+    </div>
+    <script>
+        function change(object){
+            object.innerHTML = `<img src="earpods.webp">`
+        }
+        function change2(object){
+            object.innerHTML = `<img src="iphone.webp">`
+        }
+    </script>
+</body>
+</html>
