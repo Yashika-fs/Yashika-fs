@@ -1,0 +1,112 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+ display: flex;
+ background-color: black;
+}
+.col1{
+    width: 10%;
+    height: 6%;
+    float: left;
+}
+.col1 img{
+    height:100%;
+    width: 100%;
+}
+.col4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.col2
+{
+width: 50%;
+float: left;
+margin-left: 10px;
+}
+.col2 .input_text{
+    width: 85%;
+    height: 30px;
+    margin-left: 2em;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-color: transparent;
+}
+.col3{
+    width: 30%;
+    float: left;
+    font-size: 0.9em;
+}
+.col3 i{ 
+ margin-right: 2px;
+}
+ul{
+list-style: none;
+}
+ul li{
+    display: inline;
+    margin: 20px;
+}
+.menu {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    text-align: right;
+    text-size-adjust: 10px;
+}
+.menu .products{
+    width: 15%;
+    margin-left: 2em;
+}
+.menu .products img{
+    width: 50%;
+    height: 60%;
+    margin-left: 6em;
+
+}
+.menu .product p{
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-left: 13em;
+    font-weight: 500;
+    align-content: center;
+}
+
+.featured-thing {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px ;
+    padding: 20px;
+}
+.featured-thing .thing {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+}
+.thing img {
+    width: 100%;
+    height: auto;
+}
+.thing .title {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.thing .price {
+    color: #B12704;
+    font-size: 18px;
+}
+.thing button {
+    background-color: #FF9900;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+.thing button:hover {
+    background-color: #FF6A00;
+}
