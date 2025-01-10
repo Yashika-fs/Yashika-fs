@@ -1,0 +1,94 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+  <button onclick="Greater()">No.</button>
+    <script>
+        let a = 4;
+       let  b = 2;
+       //addition
+       console.log("Addition: a + b =",a + b);
+       //divison
+       console.log("Divison: a/2 =",a/2);
+       //multiplication
+        console.log("multiplication: a*b =",a*b);
+        //subtraction
+        console.log("subtraction: a-b =",a-b);
+        //decrement
+        console.log("decrement: ++a =",++a);
+        //increment
+        console.log("increment: --a =",--a);
+        //remainder
+        console.log("remainder: a%2 =",a%2);
+
+        //increment and decrement
+        let x=5;
+      let  y=x++;
+        let z=++x;
+       console.log("x++ =",y);//post increment means assign existing value then increment y=5,x=6
+       console.log("++x =",z);//pre increment means  first increment then assign the value x=6,z=7
+       let c = 5;
+       let d = c--;
+       let e= --c;
+       console.log("c-- =",d);
+       console.log("--c =",e);
+      //relational operations
+      let f=6;
+      let g=9;
+      console.log(f<g);
+      console.log(g>f);
+      console.log(f=="6");
+      console.log(g==7);
+      // conditional statement
+      let h=19;
+      if(h < 18){
+        console.log("Not eligible to vote");
+      }
+      else
+      {
+       console.log("eligible for voting");
+      }
+      function Greater()
+      {
+            Number1 = prompt("Enter number")
+            Number2 = prompt("Enter number")
+            if(Number1 > Number2){
+            console.log(`${Number1} is greater`)
+            }
+            if(Number2 > Number1)
+            {
+            console.log(`${Number2} is greater`)
+            }
+            else
+            { 
+            aconsole.log(` ${Number1} and ${Number2} are equal `)
+            }
+        }
+       // switch case
+        let color = prompt("Enter color")
+        let alert=""
+
+        switch(color)
+         {
+          case "red":
+          alert = "danger";
+          break;
+          case "white":
+          alert = "Piece"
+          break;
+          case "green":
+          alert = "growth";
+          break;
+          case "blue":  
+          alert = "Calmness";
+          break;
+          default:
+         }
+         console.log(alert)
+        </script>
+</body>
+</html>
