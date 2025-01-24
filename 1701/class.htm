@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class bankaccount{
+            #balance = 10;
+            deposit(amount){
+                this.#balance += amount;
+            }
+        }
+        const amount = new bankaccount();
+        account.deposit(100);
+ // 1.Copying Arrays
+/*const originalarr =[1,2,3,4];
+const copy =[...originalarr];
+console.log(copy===originalarr);
+console.log(copy);*/
+ 
+//2.combining arrays
+/*const arr1=[1,2,3,4,5];
+const arr2=[8,9];
+const comb=[...arr2,...arr1];
+console.log(comb);*/
+ 
+//3.Copying objects
+/*const obj1={ name:"Richard", age:30};
+const copy={...obj1};
+console.log(copy);
+console.log(copy===obj1);
+*/
+//4.Merging of objects
+/*const obj1={ name:"Richard", age:30};
+const obj2={marks:94,grade:"A+"};
+const copy={...obj1,...obj2};
+console.log(copy);
+//console.log(copy===obj1);*/
+ 
+//5. Spread operators as functions arguments
+/*function maxValue(...numbers)
+{
+    return Math.max(...numbers);
+}
+ 
+console.log(maxValue(13,8,10,9,6));*/
+ 
+function sum(a,b,c)
+{
+    return a+b+c;
+}
+ 
+const number=[1,5,9];
+console.log(sum(...number));
+ 
+    </script>
+</body>
+</html>
